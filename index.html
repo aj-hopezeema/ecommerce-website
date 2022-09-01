@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontendmentors | Ecommerce website</title>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+
+      <div class="harmburger-logo-group">
+        <div class="harmburger-control">
+          <img class="harmburger" src="images/icon-menu.svg" alt="menu button">
+        </div>
+        <img class="logo" src="images/logo.svg" alt="logo">
+        <!-- mobile menu -->
+        <div class="menu  open">
+          <div class="slide-menu">
+            <img class="closeBtn" src="images/icon-close.svg" alt="">
+            <ul>
+              <li><a href="#">Collections</a></li>
+              <li><a href="#">Men</a></li>
+              <li><a href="#">Women</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div> 
+      </div>
+
+      <div class="cart-avatar-group">
+        <div class="cart-wrapper">
+          <img class="cart" src="images/icon-cart.svg" alt="cart image">
+          <div class="cart-counter"></div>
+        </div>
+        <img class="avatar" src="images/image-avatar.png" alt="avatar">
+      </div>
+
+    </header>
+
+  </div>
+
+  <!-- PRODUCTS -->
+  <main class="body-content">
+
+    <section class="products">
+      <div class="product-wrapper">
+        <div class="pdt-img-container">
+          <div class="product productone current">
+            <img id="pdt-img" src="images/image-product-1.jpg" alt="">
+          </div>
+          <div class="product">
+            <img id="pdt-img" src="images/image-product-2.jpg" alt="">
+          </div>
+          <div class="product">
+            <img id="pdt-img" src="images/image-product-3.jpg" alt="">
+          </div>
+          <div class="product last">
+            <img id="pdt-img" src="images/image-product-4.jpg" alt="">
+          </div>
+        </div>
+        <div class="previousBtn arrow" id="previous">
+          <img src="images/icon-previous.svg" alt="previous button">
+        </div>
+        <div class="nextBtn arrow" id="next">
+          <img src="images/icon-next.svg" alt="next button">
+        </div>
+      </div>
+      
+      <div class="cart-content">
+        <div class="cart-heading">
+          <h2>Cart</h2>
+        </div>
+        <div class="cart-product-price-delBtn" id="cartpageup">
+          <!-- <div class="flex-class hide">
+            <div class="carth">
+              <img class="carh" src="images/image-product-1-thumbnail.jpg" alt="">
+            </div>
+            <div class="cart-text">
+              <div class="cart-text-head">
+                <h2>Autumn Limited Edition...</h2>
+              </div>
+              <div class="price-total-container">
+                <div class="cart-text-price font-style">$125.00 x</div>
+                <div class="font-style" id="cartcount">2</div>
+                <div class="price-total"><h3>$250.00</h3></div>
+              </div>
+            </div>
+            <div class="deletebtn">
+              <img id="deleteBtn" src="images/icon-delete.svg" alt="delete svg">
+            </div>
+          </div> -->
+          <!-- <div class="checkoutbtn">
+            <h2>Checkout</h2>
+          </div> -->
+        </div>
+
+        <div class="empty-msg">
+          <h2>Your cart is empty.</h2>
+        </div>
+      </div>
+
+     
+    </section>
+
+    
+    <section>
+      <div class="product-name-container">
+        <div class="product-container">
+          <h2>SNEAKER COMPANY</h2>
+          <h1>Fall Limited Edition Sneakers</h1>
+          <p>
+            These low-profile sneakers are your perfect casual wear companion. Featuring a
+            durable rubber outer sole, they’ll withstand everything the weather can offer.
+          </p>
+        </div>
+        <div class="price-container">
+          <div class="real-price-discounted">
+            <div class="real-price">
+              $125.00
+            </div>
+            <div class="discount">
+              50%
+            </div>
+          </div>
+          <div class="undiscounted">
+            $250.00
+          </div>
+        </div>
+        <div class="increment-cart-btn">
+          <div class="increment-decrement-btn">
+            <div id="decrease" class="decrementbtn num">
+              <img id="decrementbtn" src="images/icon-minus.svg" alt="">
+            </div>
+            <div class="count">0</div>
+            <div id="increase" class="incrementbtn num">
+              <img id="incrementbtn" src="images/icon-plus.svg" alt="">
+            </div>
+          </div>
+          <div class="addtocartbtn">
+            <img src="images/icon-cart.svg" alt="">
+            <div class="addCartText">
+              Add to cart
+            </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="thumbnail-items">
+      <div class="image-thumbnail-container">
+        <div class="thumbnail thumbnail-1">
+          <img id="thumbnail" class="thumbnailimg" src="images/image-product-1-thumbnail.jpg" alt="">
+        </div>
+        <div class="thumbnail thumbnail-2">
+          <img id="thumbnail" class="thumbnailimg" src="images/image-product-2-thumbnail.jpg" alt="">
+        </div>
+        <div class="thumbnail thumbnail-3">
+          <img id="thumbnail" class="thumbnailimg" src="images/image-product-3-thumbnail.jpg" alt="">
+        </div>
+        <div class="thumbnail thumbnail-4">
+          <img id="thumbnail" class="thumbnailimg" src="images/image-product-4-thumbnail.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <script src="main.js"></script>
+</body>
+</html>
